@@ -18,7 +18,7 @@ The image used in docker multistage refers to an existing Hiromu Hota project [l
 #### Image Build
 This process is quite time consuming as it downloads the pentaho-di which contains a bit more than 1.1GB. I used docker multistage to remove unnecessary plugins (which made sense at the moment for me), also using a tomcat alpine image for this. All of this can be placed on a CI / CD treadmill. In this repository, I left a drawing of a complete treadmill using Azure DevOps, with deploy in a kubernetes cluster, but still needs improvements in the build process, as well as create pipeline as code.
 
-[CI/CD Pentaho Webspoon](https://drive.google.com/open?id=1pkSvQTz0HjQPEVmRS4FqMPaX_ziOY2hk)
+![CI/CD Pentaho Webspoon](images/pentahoDeploy.jpg)
  
 
 ```shell
