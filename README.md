@@ -1,6 +1,6 @@
 ## Pentaho webspoon configuration
 
-The image used in docker multistage refers to an existing Hiromu Hota project [link here] (https://github.com/HiromuHota/webspoon-docker)
+The image used in docker multistage refers to an existing Hiromu Hota project [link here](https://github.com/HiromuHota/webspoon-docker)
 
 #### Project Files and Directories:
 1. PentahoFiles: Directory to put all * .ktr and * .kjb. Facilitating a CI / CD process, where you would only have to commit those files into a git repository.
@@ -35,4 +35,4 @@ http://0.0.0.0:8080/spoon/spoon
 
 #### Thanks
 
-Thanks to [Hiromu Hota] (https://github.com/HiromuHota) for contributing in the community, and having the repository with pentaho webspoon with image ready in the docker hub, facilitating for me an occasional need to use pentaho webspoon.
+Thanks to [Hiromu Hota](https://github.com/HiromuHota) for contributing in the community, and having the repository with pentaho webspoon with image ready in the docker hub, facilitating for me an occasional need to use pentaho webspoon.
