@@ -1,4 +1,4 @@
-### pentaho webspoon configuration
+## Pentaho webspoon configuration
 
 The image used in docker multistage refers to an existing Hiromu Hota project [link here] (https://github.com/HiromuHota/webspoon-docker)
 
